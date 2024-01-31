@@ -1,0 +1,75 @@
+ .cards {
+    width: 411px;
+    height: 548px;
+} 
+
+.cards__top {
+    position: relative;
+    background: #7373D7;
+    padding: 97px 43px 16px;
+}
+.cards__top img {
+    width: 325px;
+    height: 325px;
+}
+.card_sale {
+    background-color: #C9C9FF;
+    top: 16px;
+    right: 16px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #7373D7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.sale_new {
+    top: 16px;
+    right: 16px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #7373D7;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+.cards p {
+    padding-top: 8px;
+    width: 379px;
+    margin: 0 auto;
+    margin-top: 76px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%; 
+    background-color: transparent;
+    border-top: 1px solid #fff;
+}
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards h4 {
+    margin-top: 5px;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%; 
+} 
+
+

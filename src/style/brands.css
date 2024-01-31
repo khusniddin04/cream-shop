@@ -1,0 +1,20 @@
+.brands  {
+    background: #7373D7;
+    padding: 80px 0 40px;
+}
+.brands__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brands h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%; /* 28px */
+    text-transform: uppercase;
+}
+
+/* Responsive style */
+

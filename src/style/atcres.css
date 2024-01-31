@@ -1,0 +1,43 @@
+
+.actres {
+    padding: 80px 0;
+}
+
+.actres__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.actresCard {
+    width: 628px;
+    height: 837px;
+    padding: 689px 40px 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.actresCard h2 {
+    color: var(--brand-white, #FFF);
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 140%; /* 72.8px */
+    text-transform: uppercase;
+}
+.actresCard a {
+    color: var(--brand-white, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    text-transform: uppercase;
+}
+.actresCard a::after {
+    content: ' ';
+    width: 94px;
+    height: 2px;
+    background: #7373D7;
+    display: block;
+    margin-top: 8px;
+}
+
+/* Responsive style */

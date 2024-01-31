@@ -1,0 +1,78 @@
+.creams {
+  margin-top: 44px ;
+  margin-bottom: 80px;
+}
+.creams h5 {
+  color: #222;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.creams__title1 {
+  width: 550px;
+  margin: 0 auto;
+  position: relative;
+  color: #7373d7;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 140%; /* 47.6px */
+  text-transform: uppercase;
+  border-bottom: 3px dashed #7373d7;
+}
+/* .creams__title1::after {
+  content: "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
+  position: absolute;
+  top: 20px;
+  left: 370px;
+  font-size: 20px;
+  color: #7373d7;
+  display: block;
+} */
+.creams__title2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #222;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+.creams__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.creamsCard {
+    padding: 37px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.creamCard__content {
+    margin-top: 22px;
+}
+.creamsCard h4 {
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+    text-transform: uppercase;
+}
+.creamsCard p {
+    width: 254px;
+    color: #222;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+
+/* Responsive style  */

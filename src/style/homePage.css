@@ -1,0 +1,1224 @@
+/* Responsive style */
+
+@media (max-width: 1290px) {
+  .product .swiper {
+    position: relative;
+    width: 1200px;
+    overflow: none;
+    height: 700px;
+    gap: 30px;
+  }
+  .product .cards {
+    width: 360px;
+    height: 470px;
+  }
+  .product .cards__top {
+    position: relative;
+    background: #7373d7;
+    padding: 93px 22px 16px;
+  }
+  .product .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px !important;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(
+      --swiper-wrapper-transition-timing-function,
+      initial
+    );
+    box-sizing: content-box;
+  }
+  .creams__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  .product .cards {
+    width: 350px;
+    height: 449px;
+  }
+  .banner__img img {
+    width: 590px;
+    height: 750px;
+  }
+  .product .swiper {
+    position: relative;
+    width: 1140px;
+    overflow: none;
+    height: 700px;
+    gap: 30px;
+  }
+  .brands__cards img {
+    width: 280px;
+  }
+  .actresCard h2 {
+    color: var(--brand-white, #fff);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .creamsCard {
+    padding: 28px 8px 32px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+    .collectionCard img {
+        width: 400px;
+        height: 400px;
+    }
+  .banner__img img {
+    width: 512px;
+    height: 670px;
+  }
+  .banner__content h2 {
+    width: 498px;
+    font-size: 34px;
+  }
+  .banner__content p {
+    width: 410px;
+    font-size: 14px;
+  }
+  .banner__content a {
+    font-size: 16px;
+  }
+  .banner__content {
+    width: 575px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 36px 73px 0;
+  }
+  .actresCard {
+    width: 594px;
+    height: 780px;
+    padding: 612px 40px 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sed1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 135px 43px;
+  }
+  .faeturing {
+    width: 620px;
+    padding: 40px;
+    border-radius: 15px;
+    background: #7373d7;
+  }
+  .faeturing h2 {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .faeturing p {
+    margin-bottom: 40px;
+    width: 560px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .faeturing a {
+    color: #7373d7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    width: 186px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 48px 12px 49px;
+    border-radius: 28px;
+    background: #c9c9ff;
+  }
+  .content__words h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .content__words p {
+    width: 628px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .creamsCard {
+    padding: 28px 0px 16px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .product .cards {
+    width: 320px;
+    height: 440px;
+  }
+  .product .swiper {
+    position: relative;
+    width: 1040px;
+    overflow: none;
+    height: 700px;
+    gap: 30px;
+  }
+  .cards__top img {
+    width: 290px;
+    height: 300px;
+  }
+  .brands__cards img {
+    width: 245px;
+  }
+  .cards h4 {
+    margin-top: 5px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+  }
+}
+
+@media (max-width: 1120px) {
+    .content__words h2 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .content__words p {
+        width: 494px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 160%;
+    }
+  .banner__img img {
+    width: 480px;
+    height: 600px;
+  }
+  .product .swiper {
+    position: relative;
+    width: 911px;
+    overflow: none;
+    height: 700px;
+    gap: 30px;
+  }
+  .product .cards {
+    width: 305px;
+    height: 425px;
+  }
+
+  .sale_new {
+    top: 16px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #7373d7;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 160%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+  }
+  .cards__top img {
+    width: 250px;
+    height: 260px;
+  }
+  .creamsCard p {
+    width: 254px;
+    color: #222;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .creamsCard__img {
+    width: 105px;
+    height: 100px;
+  }
+  .creams__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brands__cards img {
+    width: 220px;
+  }
+  .creamsCard p {
+    width: 257px;
+    color: #222;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 10px;
+  }
+  .creamsCard h4 {
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  .homeHero h2 {
+    margin: 0 auto;
+    width: 843px;
+    color: var(--Primary-White, #fff);
+    text-align: center;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: uppercase;
+  }
+  .homeHero a {
+    font-size: 17px;
+    width: 180px;
+    height: 50px;
+  }
+  .actresCard h2 {
+    color: var(--brand-white, #fff);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .product .swiper {
+    position: relative;
+    width: 814px;
+    overflow: none;
+    height: 700px;
+    gap: 30px;
+  }
+
+  .actresCard h2 {
+    color: var(--brand-white, #fff);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .actresCard a {
+    color: var(--brand-white, #fff);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+  .actresCard a::after {
+    content: " ";
+    width: 89px;
+    height: 3px;
+    background: #7373d7;
+    display: block;
+    margin-top: 8px;
+  }
+
+  .brands h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .product .product__content h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .product .cards {
+    width: 260px;
+    height: 495px;
+  }
+  .cards__top img {
+    width: 228px;
+    height: 226px;
+  }
+  .product .cards__top {
+    position: relative;
+    background: #7373d7;
+    padding: 72px 22px 16px;
+  }
+
+  .homeHero h2 {
+    margin: 0 auto;
+    width: 754px;
+    color: var(--Primary-White, #fff);
+    text-align: center;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: uppercase;
+  }
+  .homeHero__content h4 {
+    margin-bottom: 16px;
+    color: var(--Primary-White, #fff);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .homeHero a {
+    font-size: 16px;
+    width: 175px;
+    height: 45px;
+  }
+  .banner__content {
+    width: 510px;
+    height: 636px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 36px 73px 0;
+  }
+  .banner__img img {
+    width: 549px;
+    height: 670px;
+  }
+}
+
+@media (max-width: 1100px) {
+    .product .swiper {
+        position: relative;
+        width: 814px;
+        overflow: none;
+        height: 515px;
+        gap: 30px;
+    }
+  .banner__img img {
+    width: 518px;
+    height: 619px;
+  }
+  .banner__content {
+    width: 440px;
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 36px 73px 0;
+  }
+  .banner__content1 {
+    width: 482px;
+    height: 627px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 57px 80px 40px;
+}
+}
+
+@media (max-width: 1000px) {
+  .actresCard {
+    width: 590px;
+    height: 668px;
+    padding: 527px 40px 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cards p {
+    padding-top: 8px;
+    width: 379px;
+    margin: 0 auto;
+    margin-top: 76px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    background-color: transparent;
+    border-top: 1px solid #fff;
+  }
+  .brands__cards img {
+    width: 201px;
+  }
+  .banner__content {
+    width: 400px;
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 36px 73px 0;
+  }
+  .banner__content h2 {
+    width: 375px;
+    font-size: 26px;
+  }
+  .banner__content p {
+    width: 329px;
+    font-size: 13px;
+  }
+  .banner__content a {
+    font-size: 15px;
+  }
+
+  .banner__img img {
+    width: 450px;
+    height: 541px;
+  }
+  .banner__content1 h2 {
+    color: #222;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .banner__content1 p {
+    color: #222;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+  }
+  .banner__content1 a {
+    color: #222;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+  .banner__content1 h2 {
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .banner__content1 p {
+    color: #222;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+  }
+  .banner__img img {
+    width: 435px;
+    height: 541px;
+  }
+  .banner__content1 {
+    width: 420px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 31px 80px 34px;
+  }
+  .banner__content {
+    width: 420px;
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 36px 73px 0;
+  }
+}
+
+@media (max-width: 900px) {
+    .product .swiper {
+        width: 760px;
+    }
+    .product .product__content h2 {
+        font-size: 33px;
+    }
+    .banner__content {
+        width: 330px;
+        height: 544px;
+        padding: 80px 36px 73px 22px;
+    }
+    .banner__img img {
+        width: 426px;
+        height: 514px;
+    }
+    .banner__content1 {
+        width: 344px;
+        height: 491px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 72px 12px 78px 5px;
+    }
+    .collectionCard h3 {
+        margin-top: 22px;
+        color: #FFF;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .banner__content1 h2 {
+        font-size: 34px;
+    }
+    .brands__cards img {
+        width: 188px;
+    }
+    .actresCard {
+        width: 492px;
+        height: 624px;
+        padding: 471px 40px 40px 40px;
+    }
+    .actresCard h2 {
+        font-size: 28px;
+    }
+    .actresCard a {
+        font-size: 16px;
+    }
+    .actresCard a::after {
+        content: " ";
+        width: 84px;
+        height: 3px;
+    }
+    .content__words p {
+        width: 462px;
+        font-size: 16px;
+    }
+    .product .cards {
+        width: 335px;
+        height: 507px;
+    }
+    .cards__top img {
+        width: 300px;
+        height: 295px;
+    }
+    .sale_new {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 800px) {
+    .product .product__content h2 {
+        font-size: 26px;
+    }
+    .product .after_text {
+        color: #222;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 160%;
+        text-transform: uppercase;
+        border-bottom: 2px solid #7373D7;
+    }
+    .product .btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .product .swiper {
+        width: 660px;
+    }
+    .cards__top img {
+        width: 290px;
+        height: 287px;
+    }
+    .product .cards {
+        width: 321px;
+        height: 504px;
+    }
+    
+.creams__title2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #222;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+.creams__title1 {
+    width: 448px;
+    margin: 0 auto;
+    position: relative;
+    color: #7373d7;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    border-bottom: 3px dashed #7373d7;
+}
+.content__words h2 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.content__words p {
+    width: 448px;
+    font-size: 15px;
+}
+.collectionCard h3 {
+    margin-top: 22px;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.banner__content h2 {
+    width: 314px;
+    font-size: 22px;
+}
+.banner__content p {
+    width: 272px;
+    font-size: 12px;
+}
+.banner__content a {
+    font-size: 14px;
+}
+.banner__content {
+    width: 311px;
+    height: 506px;
+    padding: 80px 36px 73px 22px;
+}
+.banner__img img {
+    width: 348px;
+    height: 447px;
+}
+.banner__content1 {
+    width: 333px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 12px 78px 5px;
+}
+.banner__content1 h2 {
+    font-size: 30px;
+}
+.banner__content1 p {
+    color: #222;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+.faeturing {
+    width: 596px;
+    padding: 35px;
+    border-radius: 15px;
+    background: #7373d7;
+}
+.faeturing h2 {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.faeturing p {
+    margin-bottom: 40px;
+    width: 497px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.faeturing a {
+    color: #7373d7;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    width: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 48px 12px 49px;
+    border-radius: 28px;
+    background: #c9c9ff;
+}
+.brands__cards img {
+    width: 150px;
+}
+.actresCard {
+    width: 492px;
+    height: 516px;
+    padding: 377px 40px 40px 40px;
+}
+.actresCard h2 {
+    font-size: 23px;
+}
+.homeHero h2 {
+    margin: 0 auto;
+    width: 625px;
+    color: var(--Primary-White, #fff);
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: uppercase;
+}
+}
+
+@media (max-width: 700px ) {
+    .product .product__content h2 {
+        font-size: 22px;
+    }
+    .homeHero h2 {
+        margin: 0 auto;
+        width: 470px;
+        color: var(--Primary-White, #fff);
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 90%;
+        text-transform: uppercase;
+    }
+    .product .swiper {
+        width: 550px;
+    }
+    .product .cards {
+        width: 270px;
+        height: 493px;
+    }   
+    .cards__top img {
+        width: 235px;
+        height: 231px;
+    }
+    .sale_new {
+        width: 40px;
+        height: 40px;
+    }
+    .cards h4 {
+        margin-top: 5px;
+        color: #222;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 160%;
+    }
+    .creams__title2 {
+        text-align: center;
+        margin-top: 10px;
+        color: #222;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 56px;
+    }
+    .creams__title1 {
+        width: 436px;
+        margin: 0 auto;
+        position: relative;
+        color: #7373d7;
+        text-align: center;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+        border-bottom: 3px dashed #7373d7;
+    }
+    .collection {
+        background: #7373D7;
+        padding: 45px 0 74px;
+    }
+    .content__words h2 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .content__words p {
+        width: 424px;
+        font-size: 14px;
+    }
+    .banner__wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .banner__content {
+        width: 321px;
+        height: 436px;
+        padding: 80px 0px 73px 0px;
+        margin: 0 auto;
+    }
+    .banner__content h2 {
+        width: 328px;
+        font-size: 25px;
+    }
+    .banner__content p {
+        width: 327px;
+        font-size: 14px;
+    }
+    .banner__content a {
+        font-size: 15px;
+    }
+    .banner__img img {
+        width: 395px;
+        height: 447px;
+    }
+    .banner__img {
+        margin: 0 auto; 
+    }
+    .banner__content1 {
+        width: 358px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 72px 0px 78px 0px;
+        margin: 0 auto;
+    }
+    .faeturing {
+        width: 467px;
+        padding: 20px;
+        border-radius: 15px;
+        background: #7373d7;
+    }
+    .faeturing h2 {
+        margin-bottom: 16px;
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .faeturing p {
+        margin-bottom: 40px;
+        width: 401px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 160%;
+    }
+    .faeturing h5 {
+        margin-bottom: 16px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .faeturing a {
+        color: #7373d7;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 160%;
+        text-transform: uppercase;
+        width: 157px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 36px 10px 36px;
+        border-radius: 28px;
+        background: #c9c9ff;
+    }
+    .actresCard {
+        width: 492px;
+        height: 403px;
+        padding: 276px 40px 40px 40px;
+    }
+    .actresCard h2 {
+        font-size: 17px;
+    }
+    .actresCard a {
+        font-size: 14px;
+    }
+    .actresCard a::after {
+        content: " ";
+        width: 74px;
+        height: 3px;
+    }
+    .brands__cards img {
+        width: 130px;
+    }
+    .brands h4 {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 600px) {
+    .homeHero h2 {
+        margin: 0 auto;
+        width: 367px;
+        color: var(--Primary-White, #fff);
+        text-align: center;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 90%;
+        text-transform: uppercase;
+    }
+    .homeHero a {
+        font-size: 15px;
+        width: 155px;
+        height: 40px;
+    }
+    .product .product__content h2 {
+        font-size: 17px;
+    }
+    .product .product__content {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .product .btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .gap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .product .cards__top img {
+        width: 357px;
+        height: 270px;
+    }
+      .product .cards {
+        width: 389px;
+        height: 521px;
+    }
+    .swiper-slider {
+    width: 448px;
+    }
+    .cards h4 {
+        margin-top: 5px;
+        color: #222;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 160%;
+    }
+    .sale_new {
+        width: 50px;
+        height: 50px;
+    }
+    .creams__title1 {
+        width: 412px;
+        margin: 0 auto;
+        position: relative;
+        color: #7373d7;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+        border-bottom: 3px dashed #7373d7;
+    }
+    .creams__title2 {
+        text-align: center;
+        margin-top: 10px;
+        color: #222;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 56px;
+    }
+    .creams__wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content__words p {
+        width: 313px;
+        font-size: 13px;
+    }
+    .faeturing {
+        width: 380px;
+        padding: 20px;
+        border-radius: 15px;
+        background: #7373d7;
+    }
+    .faeturing h2 {
+        margin-bottom: 16px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .faeturing p {
+        margin-bottom: 40px;
+        width: 299px;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 160%;
+    }
+    .faeturing a {
+        color: #7373d7;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 160%;
+        text-transform: uppercase;
+        width: 141px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 36px 10px 36px;
+        border-radius: 28px;
+        background: #c9c9ff;
+    }
+    .actres__wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .actresCard {
+        width: 330px;
+        height: 403px;
+        padding: 306px 40px 40px 40px;
+        margin: 0 auto;
+    }
+    .brands__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       padding-left: 50px;
+    }
+    .product .swiper {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .homeHero {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 340px 0 80px;
+    }
+    .homeHero h2 {
+        margin: 0 auto;
+        width: 330px;
+        color: var(--Primary-White, #fff);
+        text-align: center;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 90%;
+        text-transform: uppercase;
+    }
+    .product .cards {
+        width: 338px;
+        height: 520px;
+    }
+    .product .swiper {
+        width: 356px;
+    }
+    .product .cards__top img {
+        width: 292px;
+        height: 251px;
+    }
+    .creams__title1 {
+        width: 313px;
+        margin: 0 auto;
+        position: relative;
+        color: #7373d7;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+        border-bottom: 3px dashed #7373d7;
+    }
+    .creams__title2 {
+        text-align: center;
+        margin-top: 10px;
+        color: #222;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 56px;
+    }    
+    .content__words p {
+        width: 261px;
+        font-size: 13px;
+    }
+    .content__words h2 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .banner__img img {
+        width: 350px;
+        height: 415px;
+    }
+    .sed1 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 149px 0 135px 0px;
+    }
+    .faeturing {
+        width: 335px;
+        padding: 20px;
+        border-radius: 15px;
+        background: #7373d7;
+    }
+    .brands__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 30px;
+    }
+    .product .swiper {
+        width: 330px;
+    }
+}

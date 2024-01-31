@@ -1,0 +1,205 @@
+#header {
+    position: fixed;
+    padding: 25px 0;
+    z-index: 15;
+}
+#header .header__nav > ul > li > a {
+    color: var(--Primary-White, #000);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+} 
+#header .modal > ul > li > a {
+    color: var(--Primary-White, #000);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+} 
+#header h4 {
+    color: var(--Primary-White, #000);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+} 
+  
+
+#home {
+    position: relative;
+    position: fixed;
+    padding: 25px 0;
+}
+.header {
+    position: fixed;
+    padding: 25px 0;
+    width: 100%;
+}
+.header h4 {
+    display: none;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.modal > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.home {
+    padding: 0 15px;
+    width: 100%;
+    position: fixed;
+    background-color: #7373D7;
+    padding: 15px 0;
+    z-index: 11;
+}
+.home h4 {
+    color: #FFF;
+    display: none;
+}
+.header h4 {
+    color: #FFF;
+    display: none;
+}
+.modal > ul > li > a {
+    color: var(--Primary-White, #FFF);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#home .header__nav > ul > li > a {
+    color: var(--Primary-White, #FFF);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* Responsive style */
+@media (max-width: 1201px) {
+    #home {
+        position: fixed;
+        padding: 25px 88px 25px 50px;
+    }
+}
+@media (max-width: 1275px) {
+    #home {
+        position: fixed;
+        padding: 25px 25px;
+    }
+}
+@media (max-width: 700px) {
+    .header img {
+        width: 200px;
+    }
+    .home img {
+        width: 230px;
+    }
+}
+
+@media (max-width: 700px) {
+    .modal {
+        display: none;
+        position: fixed;
+        background-color: #00000090;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 100vh;
+        padding: 50px 0 0 40px;
+    }
+    .modal ul  {
+        display: block;
+    }
+  
+    .modal ul li a {
+        color: var(--Primary-White, #FFF);
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .modal ul li  {
+        color: var(--Primary-White, #FFF);
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 10px;
+
+    }
+    .openModal {
+        display: block;
+    }
+    .header h4 {
+        display: block;
+        color: var(--Primary-White, #FFF);
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .home h4 {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .header h4 {
+        display: block;
+        color: var(--Primary-White, #FFF);
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    #home .header__nav > ul > li > a {
+        color: var(--Primary-White, #FFF);
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .home img {
+        width: 160px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        background-color: #00000090;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 100vh
+    }
+    .openModal {
+        display: block;
+    }
+  
+}
+@media (max-width: 410px) {
+  
+    .header img {
+        width: 140px;
+    }
+    #home .header__nav > ul > li > a {
+        color: var(--Primary-White, #FFF);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .header h4 {
+        display: block;
+        color: var(--Primary-White, #FFF);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .home h4 {
+        font-size: 13px;
+    }
+    .home img {
+        width: 140px;
+    }
+}

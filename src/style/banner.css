@@ -1,0 +1,126 @@
+.banner__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner__wrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner__content1 h3 {
+  color: #7373D7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%; /* 25.2px */
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.banner__content1 h2 {
+  color: #222;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%; /* 56px */
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.banner__content1 p {
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 40px;
+}
+.banner__content1 a {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  text-transform: uppercase;
+}
+.banner__content1 a::after {
+  content: ' ';
+  width: 89px;
+  height: 2px;
+  background: #7373D7;
+  display: block;
+}
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.banner__content {
+  width: 570px;
+  height: 828px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px 80px 0;
+}
+.banner__content1 {
+  width: 570px;
+  height: 828px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 80px 40px;
+}
+
+.banner__content h2 {
+  width: 530px;
+  color: #222;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%; /* 56px */
+  text-transform: uppercase;
+}
+.banner__content p {
+  width: 500px;
+  margin-top: 24px;
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.banner__content a {
+  margin-top: 40px;
+  cursor: pointer;
+  color: #7373d7;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  text-transform: uppercase;
+  text-decoration: underline !important;
+}
+.banner__img img {
+    width: 718px;
+    height: 823px;
+}
+
+/* Responsive style */ 
+@media (max-width: 1320px) {
+  .banner__img img {
+    width: 700px;
+    height: 810px;
+}
+}
+@media (max-width: 1301px) {
+  .banner__img img {
+    width: 675px;
+    height: 790px;
+}
+}
+@media (max-width: 1201px) {
+  .banner__img img {
+    width: 594px;
+    height: 725px;
+}
+}

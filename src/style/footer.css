@@ -1,0 +1,322 @@
+.footer {
+  background: #222;
+  padding: 80px 0 40px;
+
+}
+.footer__grid {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.footer__left {
+    border-right: 1px solid #fff;
+}
+.footer__left h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%; /* 33.6px */
+  text-transform: uppercase;
+}
+.footer__left p {
+  width: 411px;
+  margin-top: 16px;
+  color: #b7b7b7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.footer__left input {
+  margin-top: 24px;
+  padding: 17px 0 17px 24px;
+  width: 411px;
+  height: 60px;
+  border-radius: 61px;
+  border: 1px solid #b7b7b7;
+  background-color: transparent;
+}
+.footer__left input::placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.left__icons {
+    margin-top: 24px;
+}
+.footer__left ul {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.footer__left ul li {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+.footer__left ul li:nth-of-type(2) {
+    text-decoration: underline;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+.footer__left ul li:nth-of-type(3) {
+    text-decoration: underline;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+
+.footer__right {
+    padding: 0 0 147px 109px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__right ul li:nth-of-type(1) {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    text-transform: uppercase;
+}
+.footer__right ul li {
+    margin-top: 8px;
+    color: #B7B7B7;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%; /* 22.4px */
+}
+.chat {
+    position: fixed;
+    z-index: 20;
+    bottom: 20px;
+    right: 40px;
+}
+
+
+/* Responsive style */
+@media (max-width: 1000px) {
+  .footer__right {
+    padding: 0 0 147px 109px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer__right ul li {
+    width: 110px;
+    margin-top: 8px;
+    color: #B7B7B7;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%;
+}
+.footer__left input {
+    margin-top: 24px;
+    padding: 17px 0 17px 18px;
+    width: 388px;
+    height: 52px;
+    border-radius: 61px;
+    border: 1px solid #b7b7b7;
+    background-color: transparent;
+}
+.footer__left p {
+    width: 411px;
+    margin-top: 16px;
+    color: #b7b7b7;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.footer__left img {
+    width: 160px;
+}
+.footer__right img {
+  width: 70px;
+  height: 70px;
+ 
+}
+.chat {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 10px;
+}
+}
+@media (max-width: 935px) {
+  .footer__left {
+    border-right: 1px solid #fff;
+    padding-left: 15px;
+}
+.footer__right {
+    padding: 0px 0 147px 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer__left ul li:nth-of-type(2) {
+    font-size: 13px;
+}
+.footer__left ul li:nth-of-type(3) {
+    font-size: 13px;
+}
+.footer__left ul li {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 160%;
+}
+}
+@media (max-width: 870px) {
+  .footer__right {
+    padding: 0px 0 147px 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.footer__right img {
+  width: 65px;
+  height: 65px;
+ 
+}
+}
+@media (max-width: 830px) {
+  .footer__right {
+    padding: 0px 0px 147px 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.footer__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.footer__left h3 {
+  font-size: 30px;
+}.footer__left p {
+  width: 454px;
+  margin-top: 16px;
+  color: #b7b7b7;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.footer__left {
+  border-right: none !important;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+.footer__left input {
+  padding: 17px 0 17px 36px;
+  width: 430px;
+  height: 58px;
+}
+.footer__right {
+  margin-top: 20px;
+}
+.footer__left img {
+  width: 185px;
+}
+.footer__left ul li {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+}
+
+@media (max-width: 590px) {
+  .footer {
+    background: #222;
+    padding: 80px 20px 40px;
+}
+
+}
+@media (max-width: 550px) {
+  .footer__left p {
+    width: 402px;
+    margin-top: 16px;
+    color: #b7b7b7;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 160%;
+}
+}
+
+@media (max-width: 470px) {
+  .footer__left input {
+    padding: 17px 0 17px 36px;
+    width: 360px;
+    height: 52px;
+}
+.footer__left p {
+  width: 361px;
+  margin-top: 16px;
+  color: #b7b7b7;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.footer__left h3 {
+  font-size: 27px;
+}
+.footer__left ul li:nth-of-type(2) {
+  font-size: 10px;
+}
+.footer__left img {
+  width: 166px;
+}
+}
+@media (max-width: 410px) {
+  .footer__left input {
+      padding: 17px 0 17px 36px;
+      width: 307px;
+      height: 46px;
+  }
+  .footer__left p {
+      width: 298px;
+      margin-top: 16px;
+      color: #b7b7b7;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 160%;
+  }
+  .footer__left img {
+      width: 151px;
+  }
+  .footer__left ul li {
+      color: #FFF;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 160%;
+  }
+  .footer__right ul li {
+      width: 104px;
+      margin-top: 8px;
+      color: #B7B7B7;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 160%;
+  }
+  .footer__right ul li:nth-of-type(1) {
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 140%;
+      text-transform: uppercase;
+  }
+  .footer__left h3 {
+      font-size: 24px;
+  }
+}
